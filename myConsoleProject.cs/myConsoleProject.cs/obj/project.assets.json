@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kkirti\\Desktop\\Basic_C#_Programs\\myConsoleProject.cs\\myConsoleProject.cs\\myConsoleProject.cs.csproj",
-      "projectName": "myConsoleProject.cs",
-      "projectPath": "C:\\Users\\kkirti\\Desktop\\Basic_C#_Programs\\myConsoleProject.cs\\myConsoleProject.cs\\myConsoleProject.cs.csproj",
+      "projectUniqueName": "C:\\Users\\kkirti\\Desktop\\Basic_C#_Programs\\myConsoleProject.cs\\myConsoleProject.cs\\Method Class Assignment.csproj",
+      "projectName": "Method Class Assignment",
+      "projectPath": "C:\\Users\\kkirti\\Desktop\\Basic_C#_Programs\\myConsoleProject.cs\\myConsoleProject.cs\\Method Class Assignment.csproj",
       "packagesPath": "C:\\Users\\kkirti\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kkirti\\Desktop\\Basic_C#_Programs\\myConsoleProject.cs\\myConsoleProject.cs\\obj\\",
       "projectStyle": "PackageReference",

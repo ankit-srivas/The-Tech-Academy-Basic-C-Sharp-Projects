@@ -1,48 +1,36 @@
 using System;
 
-class Package
+
+// Define a class named MathOperations
+public class MathOperations
 {
-	static void Main()
-	{
-        // Welcome message
-        Console.WriteLine("Welcome to Package Express. Please follow the instructions below.\n");
+    // Define a void method named PerformMathOperation that takes two integers as parameters
+    public void PerformMathOperation(int firstNumber, int secondNumber)
+    {
+        // Perform a math operation on the first integer
+        int result = firstNumber + 1;
 
-        // Prompt user for package weight
-        Console.WriteLine("Please enter the weight of the package : ");
-		int pkgweight = Convert.ToInt32(Console.ReadLine());
-        // Check if weight exceeds limit
-        if (pkgweight > 50) 
-		{
-			Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.\n");
-			return;
-			Console.ReadLine();
-		}
-
-        // Prompt user for package dimensions
-        Console.WriteLine("Please enter the width of the package : ");
-		int pkgwidth = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Please enter the height of the package : ");
-		int pkgheight = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Please enter the length of the package : ");
-		int pkglength = Convert.ToInt32(Console.ReadLine());
-
-        // Calculate total dimensions
-        int dimensiontotal = pkgwidth + pkgheight + pkglength;
-
-        // Check if dimensions total exceeds limit
-        if (dimensiontotal > 50) 
-		{
-			Console.WriteLine("Package too big to be shipped via Package Express.\n");
-			return;
-			Console.ReadLine();
-		}
-
-        // Calculate quote
-        int quote = (pkgwidth * pkgheight * pkglength * pkgweight) / 100;
-
-        // Display quote to user
-        Console.WriteLine($"Your estimated total for shipping this package is: ${quote}.00");
-        Console.WriteLine("Thank you!");
+        // Display the second integer to the screen
+        Console.WriteLine($"Result of the math operation on {firstNumber}: {result}, Second Number: {secondNumber}");
     }
+}
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Instantiate the MathOperations class
+        MathOperations mathOps = new MathOperations();
+
+        // Prompt the user to enter the first integer
+        Console.Write("Enter the first integer: ");
+        int firstInput = Convert.ToInt32(Console.ReadLine());
+
+        // Prompt the user to enter the second integer
+        Console.Write("Enter the second integer: ");
+        int secondInput = Convert.ToInt32(Console.ReadLine());
+
+        // Call the method in the class, passing in the user-input integers
+        mathOps.PerformMathOperation(firstInput, secondInput);
+    }
 }
