@@ -1,0 +1,2 @@
+C:\Users\kkirti\Desktop\Basic_C#_Programs\myConsoleProject.cs\Entity Framework Code-First console application\Entity Framework Code-First console application\obj\Debug\net8.0\Entity Framework Code-First console application.csproj.AssemblyReference.cache
+C:\Users\kkirti\Desktop\Basic_C#_Programs\myConsoleProject.cs\Entity Framework Code-First console application\Entity Framework Code-First console application\obj\Debug\net8.0\Entity Framework Code-First console application.GeneratedMSBuildEditorConfig.editorconfig
